@@ -17,7 +17,7 @@ Education
   - B.S. Computer Science
   - Minor: Cyber Security
   - Expected May 2024
-  - GPA: 3.85
+  - GPA: 3.87
 * AWS Cloud Practitioner Certification - August 2023
 
 Work Experience
