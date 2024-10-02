@@ -1,15 +1,13 @@
 ---
-permalink: /
+permalink: /about/
 title: "William Silich"
 excerpt: "About me"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
-<head><meta http-equiv="refresh" content="0; url=https://wsilich.com/games/stocks/stoinks.html" /></head>
 
-<p><a href="https://wsilich.com/games/stocks/stoinks.html">Redirect</a></p>
+---
+<!-- <head><meta http-equiv="refresh" content="0; url=https://wsilich.com/games/stocks/stoinks.html" /></head> -->
+
+<!-- <p><a href="https://wsilich.com/games/stocks/stoinks.html">Redirect</a></p> -->
 
 Hello! I’m William Silich, and I am a senior at Iowa State University. I am majoring in Computer Science with a minor in Cyber Security. I first started coding in a high school class and have enjoyed it ever since. I expect to graduate in Spring of 2024. Outside of class, I am currently the Vice President to our campus’s cyber security club (IASG). This is my 3rd year with the club and the second as a cabinet member. Along with that, I enjoy participating in Cyber Defense Competitions that are put on by the university and even won the most recent 🎉. For more information of that sort, feel free to check out my [resume](/resume/).
 
