@@ -171,4 +171,48 @@ $(document).ready(function()
 	sell10.addEventListener("click", sell10Stock);
 	buyAll.addEventListener("click", purchaseAll);
 	sellAll.addEventListener("click", sellAllStock);
+
+
+
+    const endpoint = 'http://localhost:8787/leaderboard/list';
+
+    async function fetchLeaderboard() {
+      try {
+        const response = await fetch(endpoint, {headers: {
+			"whoami": "website-frontend",
+		}});
+        if (!response.ok) throw new Error('Network response was not ok');
+
+        const data = await response.json();
+        displayLeaderboard(data);
+      } catch (error) {
+        console.error('Fetch error:', error);
+      }
+    }
+
+    function displayLeaderboard(players) {
+      const list = document.getElementById('leaderboard');
+      list.innerHTML = '';
+
+      players.sort((a, b) => b.score - a.score);
+
+      players.forEach((player, index) => {
+        const item = document.createElement('li');
+        item.className = 'leaderboard-item';
+
+        if (index === 0) item.classList.add('gold');
+        else if (index === 1) item.classList.add('silver');
+        else if (index === 2) item.classList.add('bronze');
+
+        item.innerHTML = `
+          <span class="player-rank">#${index + 1}</span>
+          <span class="player-name">${player.name}</span>
+          <span class="player-score">${player.score}</span>
+        `;
+
+        list.appendChild(item);
+      });
+    }
+
+    fetchLeaderboard();
 });

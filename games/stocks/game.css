@@ -86,4 +86,75 @@ div > p {
     margin-bottom: 20px;
 }
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    padding: 40px;
+    display: flex;
+    gap: 40px;
+  }
 
+  .leaderboard-box {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    width: 350px;
+    max-height: 500px;
+    overflow-y: auto;
+  }
+
+  .leaderboard-box h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+  }
+
+  .leaderboard-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .leaderboard-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    background: #f9fafb;
+    border-radius: 12px;
+    transition: background 0.2s;
+  }
+
+  .leaderboard-item:hover {
+    background: #e6f0ff;
+  }
+
+  .player-rank {
+    font-weight: bold;
+    margin-right: 12px;
+  }
+
+  .player-name {
+    flex-grow: 1;
+    font-size: 16px;
+    color: #222;
+  }
+
+  .player-score {
+    font-weight: bold;
+    color: #007bff;
+  }
+
+  /* Rank-specific colors */
+  .gold { background: #fff8dc; border: 1px solid #e6c200; }
+  .silver { background: #f0f0f0; border: 1px solid #aaa; }
+  .bronze { background: #fcebd2; border: 1px solid #c67c29; }
+
+  .gold .player-rank { color: #d4af37; }
+  .silver .player-rank { color: #a0a0a0; }
+  .bronze .player-rank { color: #cd7f32; }

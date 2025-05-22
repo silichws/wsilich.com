@@ -8,4 +8,4 @@ redirect_from:
 ---
 <head><meta http-equiv="refresh" content="0; url=https://wsilich.com/games/stocks/stoinks.html" /></head>
 
-<p><a href="https://wsilich.com/games/stocks/stoinks.html">Redirect</a></p>
+<p><a href="https://games.wsilich.com">Redirect</a></p>
