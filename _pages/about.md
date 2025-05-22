@@ -5,7 +5,7 @@ excerpt: "About me"
 author_profile: true
 
 ---
-<!-- <head><meta http-equiv="refresh" content="0; url=https://wsilich.com/games/stocks/stoinks.html" /></head> -->
+<head><meta http-equiv="refresh" content="0; url=https://games.wsilich.com" /></head>
 
 <p><a href="https://games.wsilich.com">Redirect</a></p>
 
